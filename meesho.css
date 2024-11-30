@@ -1,0 +1,504 @@
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.maindiv{
+    display: flex;
+    border: solid;
+    width: 100%;
+    height: 65px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(0, 0, 0, 0.349);
+    border-bottom-width: 1px;
+}
+.logo{
+    margin-top: 0px;
+    display: flex;
+    font-size: 45px;
+    margin-left: 10%;
+    color: rgb(87, 13, 72);
+    font-family: sans-serif;
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(87, 13, 72);
+}
+.input-search{
+    color: black;
+    height: 40px;
+    width: 400px;
+    margin-left: 40px;
+    vertical-align: text-top;
+    margin-top: 6px;
+    padding-left: 30px;
+    font-weight: 548;
+    font-size: 15px;
+}
+.bx{
+    font-size: 20px;
+    margin-left: 150px;
+    border: solid;
+    margin-top: 0px;
+    height: 35px;
+    padding-top: 15px;
+    width: 170px;
+    border-top: none;
+    border-left: none;
+    border-right: solid;
+    border-bottom: none;
+    border-color: rgba(0, 0, 0, 0.349);
+
+}
+.app{
+    font-family: sans-serif;
+    padding-bottom: 40px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.694);
+    font-size: 17px;
+}
+.supplier{
+    font-family: sans-serif;
+    margin-left: 20px;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.694);
+    border: solid;
+    height: 35px;
+    width: 170px;
+    border-top: none;
+    border-left: none;
+    border-right: solid;
+    border-bottom: none;
+    border-color: rgba(0, 0, 0, 0.349);
+    text-decoration: none;
+    
+
+}
+.seconddiv{
+    display: flex;
+    border: solid;
+    height: 50px;
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.349);
+    border-bottom-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+ .women-western, .men, .kids, .home-and-kitchen, .mens-were {
+    font-family: sans-serif;
+    /* font-weight: 550; */
+    color: rgba(0, 0, 0, 0.763);
+    border: none;
+    margin-left: 100px;
+    padding-top: 15px;
+    text-decoration: none;
+    
+}
+.women-ethnic{
+    font-family: sans-serif;
+    border: none;
+    margin-left: 150px;
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.763);
+    text-decoration: none;
+    
+}
+
+ .women-western, .men, .kids, .home-and-kitchen, .mens-were{
+    margin-left: 40px;
+}
+.women-ethnic a, .women-western a, .men a, .kids a, .home-and-kitchen a, .mens-were a
+{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.763);
+}
+.women-ethnic a:hover, .women-western a:hover, .men a:hover, .kids a:hover, .home-and-kitchen a:hover, .mens-were a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+.top-cat{
+    /* border: 2px solid red; */
+    margin-left: 230px;
+    width: 70%;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    display: flex;
+}
+.top-cat1{
+    border: 1px solid rgba(236, 61, 90, 0.461);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 25%;
+    margin-top: 25px
+
+}
+.top-cat2 p{
+    /* border: 2px solid green; */
+    width: 600px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.742);
+    margin: 0px;
+    font-weight: bold;
+}
+
+
+
+.pinkdiv{
+    /* border: solid; */
+    background: linear-gradient(0deg, rgba(0, 0, 255, 0.368), rgba(255, 192, 203, 0.539));
+    width: 70%;
+    height:550px;
+    margin-left: 230px;
+    display: flex;
+}
+.womens-store{
+    /* border: solid; */
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content: space-evenly;
+}
+.womens-store p{
+    /* border: 2px solid red; */
+    width: 100%;
+    color: rgba(0, 0, 0, 0.744);
+    height: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+
+}
+.womensdiv{
+    margin-left: 10px;
+    /* border: 2px solid red; */
+    height: 170px;
+    width: 150px;
+}
+
+
+.fashion-world{
+    /* border: 2px solid red; */
+    width: 620px;
+    height: 400px;
+    margin-top: 100px;
+    /* margin-left: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.fashion-world p{
+    /* border: 2px solid red; */
+    font-family: sans-serif;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    width: 100%;
+}
+
+.mens-store {
+    /* border: 2px solid red; */
+    height:300px;
+    margin-top: 54px;
+    width: 48%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.insde-womensdiv{
+    /* border: 2px solid green; */
+    height: 140px;
+
+}
+
+.inside-womensdiv2{
+    /* border: 2px solid black; */
+    height: 25px;
+}
+.inside-womensdiv2 p{
+    font-family: sans-serif;
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.744);
+    font-size: 19px;
+    text-align: center;
+}
+.inside-womensdiv2 p a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.744);
+}
+.insde-womensdiv img{
+    height: 140px;
+    width: 148px;
+}
+
+.inside-mensstore{
+    /* border: 2px solid green; */
+    height: 30px;
+    width: 100%;
+
+}
+.inside-mensstore p{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.817);
+    font-size: 28px;
+    margin: 0px;
+}
+.inside-mensstore2{
+    /* border: 2px solid red; */
+    width: 120px;
+    height: 120px;
+}
+.last{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 120px;
+}
+.last img{
+    height: 100px;
+    width: 120px;
+}
+.last2{
+    font-family: sans-serif;
+    /* border: 2px solid green; */
+    height: 20px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.744);
+    font-size: 19px;
+    text-align: center;
+}
+.last2 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.744);
+}
+
+
+
+.pinkdiv{
+    margin-bottom:150px ;
+    /* background-image: url(https://images.meesho.com/images/marketing/1678691743015_1200.webp); */
+}
+.insidepinkdiv1{
+    /* border: 2px solid red; */
+    width: 35%;
+
+}
+.insidepinkdiv1 h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 145px;
+    margin-left: 78px;
+    color:rgb(89, 84, 84);
+}
+.insidepinkdiv1 a button{
+    height: 55px;
+    width: 159px;
+    background-color: rgb(227, 136, 24);
+    border-radius: 10px;
+    margin-left: 92px;
+    margin-top: 18px;
+    font-size: 23px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border: none;;
+}
+
+
+.insidepinkdiv2{
+    /* border: 2px solid black; */
+    width: 163px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    margin-top: 100px;
+    background-color: white;
+}
+.insidepinkinside1 {
+    /* border: 2px solid red; */
+    height: 120px;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: red;
+}
+.insidepinkinside2{
+    /* border: 2px solid orange; */
+    height: 120px;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+
+.insidepinkdiv3{
+    /* border: 2px solid white; */
+    /* width: 163px; */
+    margin-left: 20px;
+}
+.insidepinkdiv4{
+    /* border: 2px solid yellow; */
+    width: 163px;
+    margin-left: 20px;
+}
+.insidepinkinside1 a img{
+    height: 120px;
+    width: 120px;
+}
+.insidepinkinside2 a img {
+    width: 120px;
+    height: 120px;
+}
+.abc a button{
+    height: 43px;
+    width: 155px;
+    font-size: 20px;
+    margin-left: 23px;
+    margin-top: 15px;
+    background: rgb(227, 184, 184);
+    border-radius: 10px;
+    color: rgb(79, 14, 74);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.womensstoremain{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    /* border: 2px solid red; */
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.maindiv1{
+    /* border: 2px solid red; */
+    display: flex;
+    height: auto;
+    width: 100%;
+    /* margin-top: 20px; */
+}
+.category{
+    /* border: 2px solid black; */
+    width: 160px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.mmm{
+    /* border: 2px solid green; */
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-basis: 1086px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.ccc{
+    /* border:2px solid red; */
+    width: 220px;
+    height: 420px;
+    margin-left: 30px;
+    margin-top: 15px;
+    /* box-shadow: 3px 3px 3px black; */
+    border: 2px solid rgba(198, 3, 3, 0.104);
+}
+.ccc a img{
+    height: 250px;
+    width: 190px;
+    margin-left: 15px;
+}
+.ccc h1{
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.509);
+
+}
+#price  {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;  
+    margin-left: 5px;  
+    text-decoration: none;
+}
+#price span{
+    color: green;
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+.ccc h4{
+    color: rgba(0, 0, 0, 0.726);
+    margin-top: 14px;
+    margin-left: 5px;
+    /* border: 2px solid green; */
+    width: 100px;
+    background-color: rgba(237, 231, 231, 0.884);
+    height: 25px;
+    padding-top: 2px;
+    padding-left: 3px;
+    border-radius: 7px;
+}
+.ccc button{
+    height: 35px;
+    width: 60px;
+    margin-left: 5px;
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: rgba(36, 86, 23, 0.937);
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    border: none;
+
+}
+.ccc{
+    color: rgba(0, 0, 0, 0.509);
+    font-weight: bold;
+}
